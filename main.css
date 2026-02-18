@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        .nav-links li{
+            
+        }
+
+
+
+
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+div {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, alpha);
+    background-color: #d5c4c4c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+a{
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+#Toshkent-Shahar{
+    background-image: url("../img/t-sh.avif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Toshkent-viloyati{
+    background-image: url("../img/t-v.jfif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Andijon-viloyati{
+    background-image: url("../img/a-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Buxoro-viloyati{
+    background-image: url("../img/b-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Xorazm-viloyati{
+    background-image: url("../img/x-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Fargona-viloyati {
+    background-image: url("../img/f-v.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+#Samarqand-viloyati{
+    background-image: url("../img/s-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Qashqadaryo-viloyati{
+    background-image: url("../img/q-v.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Sirdaryo-viloyati{
+    background-image: url("../img/si-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Jizzax-viloyati{
+    background-image: url("../img/j-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Navoiy-viloyati{
+    background-image: url("../img/n-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Namangan-viloyati{
+    background-image: url("../img/na-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Surhandaryo-viloyati{
+    background-image: url("../img/sur-v.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
